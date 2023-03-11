@@ -1,0 +1,35 @@
+{
+    "workbench.colorTheme": "Default Dark+ Experimental",
+    "git.autofetch": true,
+    "editor.lineNumbers": "relative",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "background.fullscreen": {
+
+
+        "image": "https://pixiv.re/34844544.jpg",
+        "opacity": 0.75,
+        "size": "cover",
+        "position": "center",
+        "interval": 0
+    },
+    "files.autoSave": "off",
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.gpuAcceleration": "on",
+    "merge-conflict.autoNavigateNextConflict.enabled": true,
+    "window.menuBarVisibility": "classic",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": true,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        120
+    ],
+    "editor.cursorWidth": 5,
+    "explorer.excludeGitIgnore": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "vscode-great-icons",
+    "cSpell.userWords": [
+        "mojang",
+        "serverbread"
+    ]
+}
