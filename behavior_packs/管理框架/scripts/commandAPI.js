@@ -2,12 +2,12 @@
 我和代码只要有一个能跑就行
 这段代码现在只有我和上帝看得懂 -- 2023.3.12 01:15:48
 */
-import * as gameTest from "mojang-minecraft"
+import * as gameTest from "mojang-minecraft";
 // 温馨提示，先冲一发再写代码可以使头脑更清醒
 // PS：所有代码均未进行测试
 
-const commandPrefix = "!"    // 储存判断变量前缀所用的字符串
-let commandsList = {}
+const commandPrefix = "!";    // 储存判断变量前缀所用的字符串
+let commandsList = {};
 
 gameTest.world.events.beforeChat.subscribe((chat) => {  // 一个监听
     gameTest.world.getDimension("overworld").runCommand("say ${chat.sender}---${chat.message}")  // 打印出玩家所说的话
@@ -23,7 +23,7 @@ gameTest.world.events.beforeChat.subscribe((chat) => {  // 一个监听
                     if (a == " ") {
                         command.concat(b);
                         let b = ""
-                    }
+                    };
                     return command // 这个匿名函数返回一个叫command的东西，其中下标为0的是命令前缀，后面的都是参数
                 }
             };
@@ -42,9 +42,9 @@ gameTest.world.events.beforeChat.subscribe((chat) => {  // 一个监听
         }
 
     }
-})
+});
 // 下面就是准备供其他插件调用的函数了
-export function registreCommand(command,operation){
+export function registerCommand(command,operation){
     //command为string，operation为function，前者是玩家需输入的命令，后者是玩家输入指令时需执行的函数
     if(commandsList[command] == null) {
         commandsList[command] = operation;
@@ -54,10 +54,10 @@ export function registreCommand(command,operation){
         return 1
     }
 }
-help = new registreCommand("help",(argv) => {  // 试注册一个help命令
-    this.gameTest.getDimension("overworld").runcommand(
+help = new registerCommand("help",(argv) => {  // 试注册一个help命令
+    this.gameTest.getDimension("overworld").runCommand(
         "tellraw ${this.chat.sender} {\"rawtext\":[{\"text\":\"帮助列表（没做完（））\"}]}"
-        )
+        );
     this.gameTest.getDimension("overworld").runCommand("say ${argv}")
 })
 // 卡关了卡关了（）
