@@ -1,14 +1,15 @@
 # Minecraft-GameTest-Script-APIs--Plugin
 **操你妈，termux开不了本地mcbe服务器**
+
 ~~要不跑路吧~~
 
-made by rougekcal
+made by rougekcal ~~这家伙哪怕提交过一次吗~~
 ## 相关链接：
 ---
 ### 基岩版开发​者交流社区邀请链接【下载 开黑啦 软件加入服务器】：https://kaihei.co/7epgL0
 ### 基岩版开发wiki：https://wiki.bedev.cn/
 ### 【英文】Bedrock Dev Wiki：https://wiki.bedrock.dev/
-### 【英文】官方MC创作者文档：https://docs.microsoft.com/en-us/minecraft/creator/
+### 官方MC创作者文档：https://docs.microsoft.com/zh-cn/minecraft/creator/
 ### 【英文】Minecraft官网创作者页面：http://minecraft.net/creator ​
 
 ## 目前正在进行的项目：
