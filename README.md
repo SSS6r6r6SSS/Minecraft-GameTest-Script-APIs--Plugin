@@ -1,4 +1,7 @@
 # Minecraft-GameTest-Script-APIs--Plugin
+**操你妈，termux开不了本地mcbe服务器**
+~~要不跑路吧~~
+
 made by rougekcal
 ## 相关链接：
 ---
@@ -9,14 +12,14 @@ made by rougekcal
 ### 【英文】Minecraft官网创作者页面：http://minecraft.net/creator ​
 
 ## 目前正在进行的项目：
-### - [ ] RAC反作弊
-### - [x] Test
+- [ ] RAC反作弊
+- [ ] 命令注册API
+- [X] ~~摆烂~~
 ---
 ## 总共需要实现功能：
-### - [ ] RAC反作弊
-### - [ ] 钟表菜单
-
-#### - [ ] 打开监测
-#### - [ ] 多级菜单
-
-### - [ ] 常见功能function实现
+- [ ] RAC反作弊
+- [ ] 钟表菜单
+    - [ ] 打开监测
+    - [ ] 多级菜单
+- [ ] 命令注册APIAPI
+- [ ] 常见功能function实现

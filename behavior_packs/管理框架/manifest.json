@@ -1,23 +1,23 @@
 {
-    "format_version": 2,  // 版本
+    "format_version": 2,
     "header": {
-        "description": "使用LGPL协议，开源万岁！",  // 行为包描述
-        "name": "服务器管理框架(基于GameTest框架)1.19+",  // 行为包名称
-        "uuid": "9472c503-5a92-43c8-7ddf-0492de2362d7",  // 行为包UUID
-        "version": [1, 1, 1],  //  行为包版本
+        "description": "使用LGPL协议，开源万岁！",
+        "name": "服务器管理框架(基于GameTest框架)1.19+",
+        "uuid": "9472c503-5a92-43c8-7ddf-0492de2362d7",
+        "version": [1, 1, 1],
         "min_engine_version": [1, 19, 0]
     },
-    "modules": [  //  含有模块：
+    "modules": [
         {
             "description": "By.TCXB_NEO,保留所有权利（前面一律当屁话，这可是他妈的开源软件！）",  // 描述
-            "type": "script",  // 类型：脚本
-            "language":"javascript",  // 语言：js
-            "uuid": "317b0654-acf7-903f-8639-9dd226ee395f",  // 模块uuid
-            "version": [1, 1, 1],  // 模块版本
-            "entry": "scripts/index.js" // 入口文件
+            "type": "script",
+            "language":"javascript",
+            "uuid": "317b0654-acf7-903f-8639-9dd226ee395f",
+            "version": [1, 1, 1],
+            "entry": "scripts/index.js"
         }
     ],
-    "dependencies": [  // 依赖
+    "dependencies": [
       {
         "module_name": "@minecraft/server",
         "version": "1.1.0-beta"
@@ -25,12 +25,7 @@
       {
         "module_name": "@minecraft/server-ui",
         "version": "1.0.0-beta"
-      }/*,
-      {
-        "module_name": "@minecraft/server-net",
-        "version": "1.0.0-beta"
       }
-*/  // 这段被注释掉了，不生效
     ]
     
 }
