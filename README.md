@@ -1,4 +1,5 @@
 # Minecraft-GameTest-Script-APIs--Plugin
+**操你妈，termux开不了本地mcbe服务器**
 ~~要不跑路吧~~
 
 made by rougekcal
