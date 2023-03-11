@@ -1,5 +1,5 @@
 # Minecraft-GameTest-Script-APIs--Plugin
-～～要不跑路吧～～
+~~要不跑路吧~~
 made by rougekcal
 ## 相关链接：
 ---
@@ -12,7 +12,7 @@ made by rougekcal
 ## 目前正在进行的项目：
 - [ ] RAC反作弊
 - [ ] 命令注册API
-- [X] ～～摆烂～～
+- [X] ~~摆烂~~
 ---
 ## 总共需要实现功能：
 - [ ] RAC反作弊
