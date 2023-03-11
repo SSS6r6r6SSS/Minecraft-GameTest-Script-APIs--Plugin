@@ -18,6 +18,6 @@ made by rougekcal
 - [ ] RAC反作弊
 - [ ] 钟表菜单
     - [ ] 打开监测
-    - [ ] 多级菜单
+    -[ ] 多级菜单
 - [ ] 命令注册APIAPI
  - [ ] 常见功能function实现
