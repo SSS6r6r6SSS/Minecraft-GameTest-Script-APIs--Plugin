@@ -1,4 +1,5 @@
 import * as gameTest from "mojang-minecraft"
+// 温馨提示，先冲一发再写代码可以使头脑更清醒
 
 const commandPrefix = "!"    // 储存判断变量前缀所用的字符串
 let commandsList = {"help":help()}
