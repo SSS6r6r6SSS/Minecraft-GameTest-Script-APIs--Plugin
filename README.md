@@ -1,5 +1,6 @@
 # Minecraft-GameTest-Script-APIs--Plugin
 ~~要不跑路吧~~
+
 made by rougekcal
 ## 相关链接：
 ---
@@ -18,6 +19,6 @@ made by rougekcal
 - [ ] RAC反作弊
 - [ ] 钟表菜单
     - [ ] 打开监测
-    -[ ] 多级菜单
+    - [ ] 多级菜单
 - [ ] 命令注册APIAPI
- - [ ] 常见功能function实现
+- [ ] 常见功能function实现
