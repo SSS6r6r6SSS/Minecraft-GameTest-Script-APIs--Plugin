@@ -5,10 +5,6 @@ import * as gameTest from "mojang-minecraft"
 const commandPrefix = "!"    // 储存判断变量前缀所用的字符串
 let commandsList = {"help":help()}
 
-function help(){
-    console.log("help!!!")
-}
-
 gameTest.world.events.beforeChat.subscribe((chat) => {  // 一个监听
     gameTest.world.getDimension("overworld").runCommand("say ${chat.sender}---${chat.message}")  // 打印出玩家所说的话
     if(chat.message.charAt(0) == commandPrefix) {  // 如果这个消息的前缀等于commandPrefix
@@ -44,3 +40,13 @@ gameTest.world.events.beforeChat.subscribe((chat) => {  // 一个监听
     }
 })
 // 下面就是准备供其他插件调用的函数了，先空着吧
+export function registreCommand(command,operation){
+    //command为string，operation为function，前者是玩家需输入的命令，后者是玩家输入指令时需执行的函数
+    if(commandsList[command] == null) {
+        commandsList[command] = operation
+        return 0
+    }
+    else {
+        return 1
+    }
+}
